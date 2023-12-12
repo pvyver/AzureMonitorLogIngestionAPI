@@ -1,0 +1,22 @@
+{
+    "properties": {
+        "schema": {
+            "name": "Weather_CL",
+            "columns": [
+                {
+                    "name": "TimeGenerated",
+                    "type": "datetime",
+                    "description": "The time at which the data was generated"
+                },
+                {
+                    "name": "location",
+                    "type": "dynamic"
+                },
+                {
+                    "name": "current",
+                    "type": "dynamic"
+                }
+            ]
+        }
+    }
+}
